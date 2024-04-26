@@ -20,10 +20,10 @@ public class CollectionList2 {
 		Integer numero = Integer.valueOf(10);
 		int procura = 0;
 
-		valores.add(numero);
-
-		for (int i = 0; i < 9; i++) {
-			valores.add(i);
+		for (int i = 0; i < 10; i++) {
+			System.out.printf("Entre com o %dº número: \n",i + 1);
+			numero = leia.nextInt();
+			valores.add(numero);
 		}
 
 		System.out.println("Digite o número que você deseja procurar: ");

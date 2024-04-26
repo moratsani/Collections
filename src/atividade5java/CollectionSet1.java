@@ -19,7 +19,7 @@ public class CollectionSet1 {
 		
 		Scanner leia = new Scanner(System.in);
 		Set<Integer> valores = new HashSet<Integer>();
-		int elemento;
+		Integer elemento = Integer.valueOf(10);
 		
 		for (int i = 0; i < 10; i++) {
 			System.out.printf("Escreva o %dº valor: \n", i + 1);

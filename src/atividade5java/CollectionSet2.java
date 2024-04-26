@@ -21,10 +21,9 @@ public class CollectionSet2 {
 		Integer numero = Integer.valueOf(10);
 		int procura = 0;
 
-		num.add(numero);
-
 		for (int i = 0; i < 10; i++) {
-			num.add(i);
+			numero = i;
+			num.add(numero);
 		}
 
 		System.out.println("Digite o número que você deseja procurar: ");
